@@ -321,6 +321,8 @@ section { padding: 4.5rem 2rem; }
   .btn-outline { margin: .8rem 0 0; }
   .schedule-list li { flex-direction: column; gap: .15rem; }
   .schedule-list span { text-align: left; }
+  .price-list li { flex-direction: column; gap: .15rem; }
+  .price-list span { text-align: left; }
   .schedule-table-wrap { overflow: visible; border: 0; box-shadow: none; background: transparent; }
   .schedule-table,
   .schedule-table tbody,
@@ -378,3 +380,16 @@ section { padding: 4.5rem 2rem; }
   color: #654900;
 }
 .schedule-note a { color: var(--azul); font-weight: 800; }
+
+
+/* Precios */
+.price-box { margin-top: 1rem; padding: 1.25rem 1.4rem; background: #fff6d8; border: 1px solid #f1d681; border-left: 4px solid var(--dorado); border-radius: var(--radio); }
+.price-box h3 { color: var(--azul); font-size: 1.05rem; margin-bottom: .7rem; }
+.price-list { list-style: none; display: grid; gap: .55rem; }
+.price-list li { display: flex; justify-content: space-between; gap: 1rem; padding-top: .55rem; border-top: 1px solid #efdca1; }
+.price-list li:first-child { padding-top: 0; border-top: 0; }
+.price-list strong { color: var(--azul); }
+.price-list span { color: #654900; font-weight: 750; text-align: right; }
+.price-table td:last-child strong { display: block; font-size: 1.05rem; color: var(--azul); }
+.price-table td small { display: block; margin-top: .1rem; color: #626b78; line-height: 1.35; }
+.payment-grid .info-card { border-top-color: var(--dorado); }
